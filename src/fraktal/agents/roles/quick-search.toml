@@ -1,0 +1,4 @@
+description = "Read-only quick code search role"
+default_capability_mode = "read-only"
+reasoning_effort = "low"
+default_fork_context = true

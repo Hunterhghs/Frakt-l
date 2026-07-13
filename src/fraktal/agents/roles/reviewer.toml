@@ -1,0 +1,4 @@
+description = "Read-only code review role"
+default_capability_mode = "read-only"
+reasoning_effort = "medium"
+default_fork_context = true

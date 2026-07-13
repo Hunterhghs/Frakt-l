@@ -1,0 +1,4 @@
+description = "Full-capability test writing role"
+default_capability_mode = "all"
+reasoning_effort = "medium"
+default_fork_context = true

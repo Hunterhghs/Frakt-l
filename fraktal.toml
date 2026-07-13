@@ -1,0 +1,24 @@
+# Fraktál — Fable 5 × Grok 4.5 Hybrid
+# High-performance multi-agent coding agent powered by DeepSeek API.
+# Designed for Reasonix but applicable everywhere.
+
+[fraktal]
+# LLM provider: deepseek, openai, anthropic, openai-compatible, ollama, lmstudio
+provider = "deepseek"
+model = "deepseek-chat"
+reasoning_model = "deepseek-reasoner"
+
+# Agent behaviour
+max_iterations = 40
+max_delegations = 12
+command_timeout = 120
+
+# Memory backend: sqlite or json
+memory_backend = "sqlite"
+
+# Skill defaults
+default_effort = "medium"        # low | medium | high
+max_review_rounds = 6            # implement → review → fix loop max
+
+# MCP server (set to false to disable)
+mcp_enabled = true

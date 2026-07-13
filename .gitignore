@@ -1,0 +1,16 @@
+# Fraktál
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+.fraktal/
+*.egg-info/
+dist/
+/build/
+.env
+.DS_Store
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
